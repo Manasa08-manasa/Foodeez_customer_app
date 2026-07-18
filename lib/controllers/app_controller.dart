@@ -535,7 +535,7 @@ class AppController extends ChangeNotifier {
     trackMenuOpen = false;
     chatMessages.clear();
     chatMessages.add(ChatMessage(
-      text: "Hi ${store.userName.split(' ').first}! 👋 I can help you with your order, delivery, refunds, or account questions.",
+      text: "Hi ${store.userName.split(' ').first}! I can help you with your order, delivery, refunds, or account questions.",
       fromCustomer: false,
       time: _timeNow(),
     ));

@@ -83,7 +83,9 @@ class PaymentScreen extends ConsumerWidget {
                                           height: 38,
                                           decoration: BoxDecoration(color: m.color.withValues(alpha: 0.12), borderRadius: BorderRadius.circular(10)),
                                           alignment: Alignment.center,
-                                          child: Text(m.glyph, style: AppText.body(size: 16, weight: FontWeight.w800, color: m.color)),
+                                          child: m.icon != null
+                                              ? Icon(m.icon, color: m.color, size: 20)
+                                              : Text(m.glyph, style: AppText.body(size: 16, weight: FontWeight.w800, color: m.color)),
                                         ),
                                         const SizedBox(width: 12),
                                         Expanded(

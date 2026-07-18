@@ -265,6 +265,7 @@ const List<PaymentMethod> paymentMethods = [
     name: 'Foodeez UPI',
     sub: 'Fastest checkout · save ₹15',
     glyph: '⚡',
+    icon: Icons.flash_on_outlined,
     color: AppColors.accent,
   ),
   PaymentMethod(
@@ -310,6 +311,7 @@ const List<PaymentMethod> paymentMethods = [
     name: 'Visa •••• 4291',
     sub: 'HDFC Bank',
     glyph: '💳',
+    icon: Icons.credit_card_outlined,
     color: AppColors.ink,
   ),
   PaymentMethod(
@@ -334,6 +336,7 @@ const List<PaymentMethod> paymentMethods = [
     name: 'Netbanking',
     sub: 'All major banks',
     glyph: '🏦',
+    icon: Icons.account_balance_outlined,
     color: Color(0xFF5A6B7A),
   ),
   PaymentMethod(
@@ -342,6 +345,7 @@ const List<PaymentMethod> paymentMethods = [
     name: 'Cash on Delivery',
     sub: 'Pay when it arrives',
     glyph: '💵',
+    icon: Icons.attach_money_outlined,
     color: AppColors.green,
   ),
 ];

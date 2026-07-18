@@ -7,6 +7,7 @@ class PaymentMethod {
   final String? sub;
   final String glyph;
   final Color color;
+  final IconData? icon;
 
   const PaymentMethod({
     required this.id,
@@ -15,5 +16,6 @@ class PaymentMethod {
     this.sub,
     required this.glyph,
     required this.color,
+    this.icon,
   });
 }
